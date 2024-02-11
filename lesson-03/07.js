@@ -4,6 +4,6 @@ const numbers = [
     [111, 200, 333, 400, 555],
 ];
 
-const newNumbers = numbers.map(innerNumbers => { return innerNumbers.filter(item => item % 2 !== 0) });
+const newNumbers = numbers.map(innerArray => innerArray.filter(item => item % 2 === 0) );
 
 console.log(newNumbers);
